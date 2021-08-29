@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="padding-bottom: 25px; border-bottom:#ffffffa4 2px solid;">
+        <p id="changetext">Hello</p>
+        <img id="logo" src="./src/image.png" alt="Logo">
+    </div>
+    <div class="flexcontainer">
+        <div id="welcome">Welcome to our GUEZZANA!</div>
+        <div id="flip-card">
+            <div id="flip-card-inner">
+                <div id="input">
+                    <label id="name-label" for="name">Write the member's full name:</label>
+                    <input type="text" name="name" id="name">
+                    <select name="gender" id="gender">
+                        <option value="0">Male</option>
+                        <option value="1">Female</option>
+                    </select>
+                    <p style="font-size:30px;">Do you wanna see your future picture?</p>
+                    <input type="file" id="img" name="img" accept="image/*">
+                </div>
+                <div id="flip-card-back">
+                    <p id="output">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis dolorem nemo quibusdam ipsa reprehenderit enim quisquam ducimus voluptates amet.</p>
+                </div>
+            </div>
+        </div>
+        <button id="next-button">NEXT</button>
+    </div>
+    <p id="output"></p>
+</body>
+<script src="main.js"></script>
+</html>
+

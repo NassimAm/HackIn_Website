@@ -1,0 +1,208 @@
+body{
+    /*background-color: #000000;*/
+    background-image: url("./src/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+}
+
+#changetext{
+    display:inline;
+    margin-top:10px;
+    color:white;
+    border-bottom:white 4px solid;
+    padding: 2px 0px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    width:20%;
+}
+
+.flexcontainer{
+    margin-top:35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome
+{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: sans-serif,Arial, Helvetica;
+    color: black;
+    background-image: radial-gradient(#FBF300, #E3A700);
+    /*background-color: #FBF300;*/
+    border: #E3A700 5px solid;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 5px  #E3A700;
+    margin-bottom:35px;
+}
+
+.textinput-div{
+    margin-top:25px;
+    padding:30px;
+    background-color: black;
+    box-shadow: 0px 0px 5px 5px  #000000;
+    border-radius: 45px;
+    text-align: center;
+}
+
+#input p{
+    color: white;
+    margin-top:0px;
+    margin-bottom: 20px;
+    font-family: sans-serif,Arial, Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/*#input input{
+    border: none;
+    outline: none;
+    padding:5px 30px;
+    border-radius: 30px;
+    border: rgb(85, 82, 82) 2px solid;
+    width:70%;
+    font-size: 30px;
+}*/
+
+#next-button{
+    background-color: rgb(67, 67, 231);
+    border-radius: 50px;
+    border: rgb(76, 76, 252) 1px solid;
+    box-shadow: 0px 0px 5px 5px  rgb(76, 76, 252);
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    padding:10px 40px;
+    margin-top:35px;
+}
+
+#next-button:hover{
+    background-color: rgb(76, 76, 252);
+}
+
+#input select{
+    outline: none;
+    border: none;
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: rgb(85, 82, 82) 2px solid;
+    width:50%;
+    font-size: 25px;
+}
+
+#logo{
+    width:190px;
+    height:100px;
+    float:right;
+}
+
+#img{
+    border:none;
+    border-radius: 0px;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+
+/*Flip Card*/
+
+#flip-card{
+    background-color: transparent;
+    height: 340px;
+    width: 720px;
+    text-align: center;
+    perspective: 1000px;
+}
+
+#flip-card-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition-duration: .5s;
+    /* border: 1px solid red; */
+    transform-style: preserve-3d;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#flip-card-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    background-color: #131420;
+}
+
+#output{
+    margin: 20px 50px;
+    font-size: 20pt;
+    color: white;
+}
+
+#flip-card-back{
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 40px;
+    /* background-image: url("./src/logo.jpg");
+    background-size:260px 330px;
+    background-repeat: no-repeat; */
+}
+
+#input{
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 40px;
+}
+
+#name-label{
+    margin: 10px;
+    color: white;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+#name{
+    border: none;
+    outline: none;
+    margin: 10px;
+    height: 30px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20pt;
+}
+
+
+
+
+/* #flip-card:hover #flip-card-inner{
+    transform: rotateY(180deg);
+} */

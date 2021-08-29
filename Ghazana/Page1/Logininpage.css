@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background: #181818;
+  color: #fff;
+  overflow: auto;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+#eye-page{
+  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+  /* transition-duration: 5s; */
+}
+
+.eye{
+  width: 200px;
+  height: 200px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%,-50%) rotateZ(45deg);
+  border-radius: 75% 0;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+
+.ball{
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 50%;
+  border: 30px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.shut{
+  width: 300px;
+  height: 160px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+  z-index: 999;
+}
+
+.shut span{
+  display: block;
+  width:100% ;
+  height: 15%;
+  background: beige;
+  border-radius: 0 0 60% 60%;
+  transition: 0.4s all;
+}
+
+.eye:hover > .shut span{
+  height: 100%;
+  
+}
+
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  height:100vh;
+
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+
+
+/* Sign In */
+#signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+#signin form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+#signin .logo {
+  margin-bottom: 8vh;
+  margin-top: auto;
+}
+
+#signin .logo img {
+  width: 250px;
+}
+
+#signin label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#signin .text-input {
+  margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #181818;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  line-height: 1.3rem;
+}
+
+#signin .primary-btn {
+  width: 100%;
+}
+
+#signin .secondary-btn,
+.or,
+.links {
+  width: 60%;
+}
+
+#signin .links a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#signin .or {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.2rem;
+  align-items: center;
+}
+
+#signin .or .bar {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background: #aaa;
+}
+
+#signin .or span {
+  color: #ccc;
+  padding: 0 0.8rem;
+}
+
+#blue
+{
+    color: #06A6FE;
+}
+/* Showcase */
+#showcase {
+  display: flex;
+  text-align :center;
+  justify-content: center;
+  background: url('images/background.jpg') no-repeat center / cover;
+  height: 100vh;
+  align-items:top;
+  text-decoration: underline;
+
+}
+
+#showcase .showcase-text {
+  font-size: 3rem;
+  width: 800px;
+  color: #fff;
+  position: center left;
+  justify-content: center left;
+}
+
+#showcase .secondary-btn {
+  width: 60%;
+  margin: auto;
+}
+#primary-btn-container
+{
+    padding:  0px 100px;
+}
+
+/* Button */
+.primary-btn {
+  padding: 20px;
+  display: block;
+  border: 0;
+  background: #06A6FE;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 50px;
+  margin: 10px 2px;
+  width: 25%;
+  
+}
+
+.primary-btn:hover {
+  background-color:#06A6FE;
+}
+
+.secondary-btn {
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 1px solid #f4f4f4;
+  border-radius: 2px;
+  font-weight: 500;
+  background: none;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.secondary-btn:hover {
+  border-color:#06A6FE;
+  color: #06A6FE;
+}
+
+.slides{
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  top:30%;
+  left: 38%;
+  border-radius: 10%;
+
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+  #left {
+    flex: 3;
+  }
+
+  #right {
+    flex: 7;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+
+  #right {
+    display: none;
+  }
+
+  #left {
+    justify-content: start;
+    margin-top: 1vh;
+  }
+
+  #signin .logo {
+    margin-bottom:1vh;
+  }
+
+  #signin .text-input {
+    margin-bottom: 0.9rem;
+  }
+  .slides{
+    width: 0;
+    height: 0;
+  }
+  
+ 
+
+}
+

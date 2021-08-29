@@ -1,0 +1,18 @@
+{
+    "job_male" : ["siya9", "fella7", "sayyad", "chajara", "ra9as", "biya3", "dj", "keyyas", "chômeur", "djaja", "samaka", "7alab", "matrix", "matrix", "matrix", "frada"],
+    "job_female" : ["fella7a", "sayyada", "chajara", "biya3a", "dj", "chômeur", "djaja", "samaka", "matrix", "matrix", "matrix", "frada"],
+    "car" : ["r4", "404 baché", "symbol 9otra sbigha mafihach", "nissan Gtr ", "Clio 4 t3 tbib", "Audi safra", "evoque violet", "bmw khadra", "Lamborghini mattla3ch dodane", "Buggati mattla3ch dodane", "Renault tkali f tal3a", "206", "marouti", "qq", "atos base clim", "i10", "spark", "GT-LINE"],
+    "wife" : ["Salma", "Khadija", "Aicha", "Maria", "Asma", "Fati7a", "Olivia", "Charlotte", "Amelia", "Emily", "Imane", "Yasmine", "Riley", "Valentina", "Soumia", "melissa", "lynda", "FATIMA", "Hania", "hind"],
+    "husband":["Morad", "Merouane", "Moussa", "Islam", "Ilyes", "Mustafa", "salah", "SALIM", "Akram", "Hamza", "aziz", "hocine", "khaled", "Fares", "Badro", "Hamid", "Rida", "yahia", "Farouk", "Badro", "sisou", "fethi"],
+    "kids" : ["Morad", "Merouane", "Moussa", "Islam", "Ilyes", "Mustafa", "salah", "SALIM", "Akram", "Hamza", "aziz", "hocine", "khaled", "Fares", "Badro", "Hamid", "Rida", "yahia", "Farouk", "Badro", "sisou", "fethi"],
+    "country" : ["mouzambi9", "usa", "Nigeria", "Ethiopia", "Tanzania", "Uganda", "Angola", "Cameroon", "Somalia", "Rwanda", "South Sudan", "Congo", "Gambia", "Mexico", "Argentina", "Chile", "Peru", "Cuba", "Costa Rica", "Panama", "Jamaica"],
+    "gender" : [0, 1],
+    "form" : [
+            "{name} will be a talented {job}, suffering from his {nbkids}, but lucky enough to have {money} dollars, and a {car} car. {name} will get married to {name}, living in {country}",
+             "{name} is gonna be a successful {job}, happily living with his {nbkids} and his wife {wife}, in {country} the poor {name} have just {money} dollars and a {car} car", 
+             "ًwhen {name} will turn {age} years old, {name} will have be an amazing {job} living in the wondeful {country}, after making his first {money} dollars, {name} will get married to {wife} and have {nbkids} beautiful and annoying kids", 
+             "{name} will be a talented {job}, suffering from {pronoun_pos} {nb_kid} kids, but lucky enough to have {money}$ and a {car}, {name} will get married with {pronoun_pos} {partner}, living in {country}, .... fettali {death}",
+             "{name} gonna be a successful {job}, happily living with {nb_kid} kids and {pronoun_pos} {partner}, in {country}. The poor has just {money}$ and a {car} car",
+             "after {name} graduates from ESI, {name} will be a very professional {job_male}, Living happily in south {country} with his beautiful wife {wife} who works as a {job_female}, finally ...... tahet 3lih banana 3la rasou w mat {THE END}"
+            ]
+}

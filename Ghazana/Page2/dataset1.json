@@ -1,0 +1,9 @@
+{
+    "job": ["fella7", "teacher", "keyyas", "programmer"],
+    "car": ["Lamborghini","Buggati","Audi","BMW","R4","Renault","Toyota"],
+    "wife":["Khadija","Aicha","Maria", "Asma"],
+    "husband":["Morad", "Merouane", "Moussa", "Islam", "Ilyes"],
+    "country":["Canada","Japan","Russia","Algeria","New Zealand","Sweden","Brazil"],
+    "death" : ["zla9 fl7amam ou ta7 3la rasou [THE END]"],
+    "form":["{pronoun} will be a talented {job}, suffering from {pronoun_pos} {nb_kid} kids, but lucky enough to have {money}$ and a {car}, {name} will get married with {pronoun_pos} {partner}, living in {country}, .... fettali {death}" ,"{name} gonna be a successful {job}, happily living with {nb_kid} kids and {pronoun_pos} {partner}, in {country}. The poor has just {money}$ and a {car} car"]
+}
